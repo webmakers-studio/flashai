@@ -1,0 +1,22 @@
+{
+  "name": "flashai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"pnpm --filter server dev\" \"pnpm --filter mobile start\"",
+    "server": "pnpm --filter server dev",
+    "mobile": "pnpm --filter mobile start",
+    "build:server": "pnpm --filter server build",
+    "build:mobile": "pnpm --filter mobile build"
+  },
+  "keywords": [],
+  "author": "Chetan Verma",
+  "license": "ISC",
+  "packageManager": "pnpm@10.10.0",
+  "private": true,
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}

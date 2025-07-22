@@ -1,0 +1,12 @@
+{
+  "name": "@flashai/types",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "types": "index.ts",
+  "exports": {
+    ".": "./index.ts",
+    "./api": "./api.ts",
+    "./user": "./user.ts",
+    "./common": "./common.ts"
+  }
+}
